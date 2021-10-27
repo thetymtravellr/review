@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(241, 241, 241);
+}
+
+.container {
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 90%;
+  padding: 2rem;
+  margin: 4rem auto;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+#person-img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border-top: 5px solid rgb(131, 207, 230);
+  border-right: 5px solid rgb(131, 207, 230);
+}
+
+#jobs {
+  font-size: 0.8rem;
+  color: rgb(131, 207, 230);
+}
+#info {
+  margin: 3rem auto;
+  height: 200px;
+}
+
+.prev-btn,
+.next-btn {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: rgb(131, 207, 230);
+  margin: 10px;
+}
+
+.random-btn {
+  background: none;
+  border: 2px solid rgb(131, 207, 230);
+  border-radius: 10px;
+  color: rgb(131, 207, 230);
+  padding: 0.5rem 1rem;
+}
